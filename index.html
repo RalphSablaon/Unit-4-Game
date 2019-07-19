@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collecctor Game</title>
+    <!-- link to bootstrap and css files go here -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <!-- Instructions for the game -->
+        <h1 class="display-5">Crystals Collector Game</h1>
+        <br>
+        <p class="lead">Click on one of the four crystals below and try to match the target number. If you go over the number, you lose!</p>
+        
+        <hr class="my-4">
+        
+        <p>The value of each crystal is hidden until you click on it. Each time the game resets, the value will change for each crystal.</p>
+        
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+
+    </div>
+    
+    
+    <div class="container">
+        <div class="row">
+            <!-- This will be where the score is kept (wins & losses) -->
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Your score:</h4>
+                        <hr><br>
+                        <p class="card-text" id="cardwins">Wins:</p>
+                        <br>
+                        <P class="card-text" id="cardlosses">Losses:</P>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- This is where the crystals (buttons + images) will go -->
+            <div class="col-sm-6">
+
+
+            </div>
+
+            
+            <!-- This is where the target number & the total accumulated user score will be kept -->
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title" id="targetnumber">Target Number:</h4>
+                        <br><hr>
+                        <h4 class="card-title" id="userpoints">Your current score:</h4>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+
+</html>
