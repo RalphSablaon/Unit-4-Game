@@ -26,10 +26,10 @@
     </div>
     
     
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- This will be where the score is kept (wins & losses) -->
-            <div class="col-sm-3">
+            <div class="col-sm-3" id="Leftscore">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Your score:</h4>
@@ -45,13 +45,41 @@
             
             <!-- This is where the crystals (buttons + images) will go -->
             <div class="col-sm-6">
+                <div class="card-deck">
+                    <!-- Make cards with images for the buttons -->
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal #1</h5>
+                            </div>
+                    </div>
 
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal #2</h5>
+                            </div>
+                    </div>
 
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal #3</h5>
+                            </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal #4</h5>
+                            </div>
+                    </div>
+                </div>
             </div>
 
             
             <!-- This is where the target number & the total accumulated user score will be kept -->
-            <div class="col-sm-3">
+            <div class="col-sm-3" id="Rightscore">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title" id="targetnumber">Target Number:</h4>
