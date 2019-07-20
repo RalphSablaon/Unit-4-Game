@@ -1,4 +1,23 @@
-#Leftscore {
-    float: left;
-    
+/* html {
+    background-image: url("");
+} */
+
+body {
+    background-image: url("../images/PageBackground.jpg");
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 16px;
+    background-color: rgba(17, 89, 148, 0.226);
+    color: rgb(37, 137, 219);
+    text-shadow: 5px;
+}
+
+.card-img-top {
+    height: 148px;
+    width: 148px;
+    border: 1px solid black;
 }
