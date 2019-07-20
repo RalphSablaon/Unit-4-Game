@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystals Collector Game</title>
-    <!-- link to bootstrap and css files go here -->
+    <!-- reference links for css go here -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
+    
     <div class="jumbotron">
         <!-- Instructions for the game -->
         <h1 class="display-5">Crystals Collector Game</h1>
@@ -21,8 +23,6 @@
         
         <p>The value of each crystal is hidden until you click on it. Each time the game resets, the value will change for each crystal.</p>
         
-        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
-
     </div>
     
     
@@ -34,9 +34,9 @@
                     <div class="card-body">
                         <h4 class="card-title">Your score:</h4>
                         <hr><br>
-                        <p class="card-text" id="cardwins">Wins:</p>
+                        <p class="card-text" id="cardWins">Wins:</p>
                         <br>
-                        <P class="card-text" id="cardlosses">Losses:</P>
+                        <P class="card-text" id="cardLosses">Losses:</P>
                         <br>
                     </div>
                 </div>
@@ -45,35 +45,16 @@
             
             <!-- This is where the crystals (buttons + images) will go -->
             <div class="col-sm-6">
-                <div class="card-deck">
-                    <!-- Make cards with images for the buttons -->
-                    <div class="card">
-                        <img src="assets/images/Crystal1.jpg" class="card-img-top" alt="Crystal 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Crystal #1</h5>
-                            </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="assets/images/Crystal2.jpg" class="card-img-top" alt="Crystal 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Crystal #2</h5>
-                            </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="assets/images/Crystal3.jpg" class="card-img-top" alt="Crystal 3">
-                            <div class="card-body">
-                                <h5 class="card-title">Crystal #3</h5>
-                            </div>
-                    </div>
+                <div class="buttons">
                     
-                    <div class="card">
-                        <img src="assets/images/Crystal4.jpg" class="card-img-top" alt="Crystal 4">
-                            <div class="card-body">
-                                <h5 class="card-title">Crystal #4</h5>
-                            </div>
-                    </div>
+                    <img src="assets/images/Crystal1.jpg" class="image" id="image1"  alt="Crystal 1" height="150px" width="150px"/>
+
+                    <img src="assets/images/Crystal2.jpg" class="image" id="image2"  alt="Crystal 1" height="150px" width="150px"/>
+
+                    <img src="assets/images/Crystal3.jpg" class="image" id="image3"  alt="Crystal 1" height="150px" width="150px"/>
+                    
+                    <img src="assets/images/Crystal4.jpg" class="image" id="image4"  alt="Crystal 1" height="150px" width="150px"/>
+                            
                 </div>
             </div>
 
@@ -82,9 +63,9 @@
             <div class="col-sm-3" id="Rightscore">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title" id="targetnumber">Target Number:</h4>
+                        <h4 class="card-title" id="targetNumber">Target Number:</h4>
                         <br><hr>
-                        <h4 class="card-title" id="userpoints">Your current score:</h4>
+                        <h4 class="card-title" id="userPoints">Your current score:</h4>
                         <br>
                     </div>
                 </div>
@@ -94,8 +75,8 @@
 
     </div>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
-
-
 </html>
