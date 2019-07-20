@@ -10,10 +10,9 @@ body {
     text-align: center;
     padding-top: 16px;
     padding-bottom: 16px;
-    border: 16px;
+    border-bottom: 3px solid black;
     background-color: rgba(17, 89, 148, 0.226);
     color: rgb(37, 137, 219);
-    text-shadow: 5px;
 }
 
 .card-img-top {
@@ -22,7 +21,25 @@ body {
     border: 1px solid black;
 }
 
-#Rightscore {
-    padding: 5px;
 
+.card {
+    background-color: rgba(17, 89, 148, 0.800);
+    color: black;
+    border: 2px solid black;
 }
+
+#Rightscore .card {
+    height: 257px;
+}
+
+.image {
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+
+
+
+

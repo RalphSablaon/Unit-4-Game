@@ -52,7 +52,7 @@ function loser() {
     $("#image1").on("click", function() {
         userTotal = userTotal + num1;
         console.log("New userTotal " + userTotal);
-        $("#userPoints").text(userTotal);
+        $("#userPoints").text("Your current score: " + userTotal);
         
         // win/lose conditions
         if (userTotal === random) {
@@ -67,7 +67,7 @@ function loser() {
     $("#image2").on("click", function() {
         userTotal = userTotal + num2;
         console.log("New userTotal " + userTotal);
-        $("#userPoints").text(userTotal);
+        $("#userPoints").text("Your current score: " + userTotal);
 
         if (userTotal === random) {
             winner();
@@ -81,7 +81,7 @@ function loser() {
     $("#image3").on("click", function() {
         userTotal = userTotal + num3;
         console.log("New userTotal " + userTotal);
-        $("#userPoints").text(userTotal);
+        $("#userPoints").text("Your current score: " + userTotal);
 
         if (userTotal === random) {
             winner();
@@ -95,7 +95,7 @@ function loser() {
     $("#image4").on("click", function() {
         userTotal = userTotal + num4;
         console.log("New userTotal " + userTotal);
-        $("#userPoints").text(userTotal);
+        $("#userPoints").text("Your current score: " + userTotal);
 
         if (userTotal === random) {
             winner();
